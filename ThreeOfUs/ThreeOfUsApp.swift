@@ -13,7 +13,7 @@ struct ThreeOfUsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

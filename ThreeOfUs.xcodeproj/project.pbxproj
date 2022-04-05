@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA4920D27F8CF69004ED7A7 /* PulsarMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4920C27F8CF69004ED7A7 /* PulsarMath.swift */; };
+		0EA4920F27F99F59004ED7A7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4920E27F99F59004ED7A7 /* StartView.swift */; };
+		0EA4921127F9F7A5004ED7A7 /* PulsarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4921027F9F7A5004ED7A7 /* PulsarViews.swift */; };
+		0EF8359E27FC26AE001849DA /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8359D27FC26AE001849DA /* AnswerModel.swift */; };
+		0EF835A027FC2744001849DA /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8359F27FC2744001849DA /* QuizModel.swift */; };
+		0EF835A227FC2A38001849DA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF835A127FC2A38001849DA /* ViewModel.swift */; };
 		0EFEE74D27F3226D004A4639 /* ThreeOfUsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE74C27F3226D004A4639 /* ThreeOfUsApp.swift */; };
 		0EFEE74F27F3226D004A4639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE74E27F3226D004A4639 /* ContentView.swift */; };
 		0EFEE75127F3226F004A4639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEE75027F3226F004A4639 /* Assets.xcassets */; };
 		0EFEE75427F3226F004A4639 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEE75327F3226F004A4639 /* Preview Assets.xcassets */; };
 		0EFEE75627F3226F004A4639 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE75527F3226F004A4639 /* Persistence.swift */; };
 		0EFEE75927F3226F004A4639 /* ThreeOfUs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE75727F3226F004A4639 /* ThreeOfUs.xcdatamodeld */; };
+		0EFEE76127F3324E004A4639 /* PulsarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE76027F3324E004A4639 /* PulsarStyle.swift */; };
+		0EFEE76327F51AAE004A4639 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEE76227F51AAE004A4639 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EA4920C27F8CF69004ED7A7 /* PulsarMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsarMath.swift; sourceTree = "<group>"; };
+		0EA4920E27F99F59004ED7A7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		0EA4921027F9F7A5004ED7A7 /* PulsarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsarViews.swift; sourceTree = "<group>"; };
+		0EF8359D27FC26AE001849DA /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		0EF8359F27FC2744001849DA /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		0EF835A127FC2A38001849DA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		0EFEE74927F3226D004A4639 /* ThreeOfUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeOfUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFEE74C27F3226D004A4639 /* ThreeOfUsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeOfUsApp.swift; sourceTree = "<group>"; };
 		0EFEE74E27F3226D004A4639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +37,8 @@
 		0EFEE75327F3226F004A4639 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EFEE75527F3226F004A4639 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0EFEE75827F3226F004A4639 /* ThreeOfUs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeOfUs.xcdatamodel; sourceTree = "<group>"; };
+		0EFEE76027F3324E004A4639 /* PulsarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsarStyle.swift; sourceTree = "<group>"; };
+		0EFEE76227F51AAE004A4639 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF8359A27FC263B001849DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8359D27FC26AE001849DA /* AnswerModel.swift */,
+				0EF8359F27FC2744001849DA /* QuizModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EF8359B27FC2657001849DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EF8359C27FC2667001849DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0EF835A127FC2A38001849DA /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0EFEE74027F3226D004A4639 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +95,13 @@
 		0EFEE74B27F3226D004A4639 /* ThreeOfUs */ = {
 			isa = PBXGroup;
 			children = (
+				0EF8359C27FC2667001849DA /* ViewModel */,
+				0EF8359B27FC2657001849DA /* View */,
+				0EF8359A27FC263B001849DA /* Model */,
+				0EFEE75F27F33041004A4639 /* Pulsar */,
 				0EFEE74C27F3226D004A4639 /* ThreeOfUsApp.swift */,
 				0EFEE74E27F3226D004A4639 /* ContentView.swift */,
+				0EA4920E27F99F59004ED7A7 /* StartView.swift */,
 				0EFEE75027F3226F004A4639 /* Assets.xcassets */,
 				0EFEE75527F3226F004A4639 /* Persistence.swift */,
 				0EFEE75727F3226F004A4639 /* ThreeOfUs.xcdatamodeld */,
@@ -71,6 +116,17 @@
 				0EFEE75327F3226F004A4639 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EFEE75F27F33041004A4639 /* Pulsar */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEE76027F3324E004A4639 /* PulsarStyle.swift */,
+				0EFEE76227F51AAE004A4639 /* Notes.swift */,
+				0EA4920C27F8CF69004ED7A7 /* PulsarMath.swift */,
+				0EA4921027F9F7A5004ED7A7 /* PulsarViews.swift */,
+			);
+			path = Pulsar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA4920D27F8CF69004ED7A7 /* PulsarMath.swift in Sources */,
+				0EFEE76127F3324E004A4639 /* PulsarStyle.swift in Sources */,
 				0EFEE75627F3226F004A4639 /* Persistence.swift in Sources */,
+				0EA4920F27F99F59004ED7A7 /* StartView.swift in Sources */,
 				0EFEE74F27F3226D004A4639 /* ContentView.swift in Sources */,
+				0EF8359E27FC26AE001849DA /* AnswerModel.swift in Sources */,
 				0EFEE74D27F3226D004A4639 /* ThreeOfUsApp.swift in Sources */,
+				0EF835A027FC2744001849DA /* QuizModel.swift in Sources */,
 				0EFEE75927F3226F004A4639 /* ThreeOfUs.xcdatamodeld in Sources */,
+				0EFEE76327F51AAE004A4639 /* Notes.swift in Sources */,
+				0EF835A227FC2A38001849DA /* ViewModel.swift in Sources */,
+				0EA4921127F9F7A5004ED7A7 /* PulsarViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
